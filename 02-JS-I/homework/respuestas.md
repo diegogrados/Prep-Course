@@ -10,12 +10,14 @@ Un argumento es una variable que se puede usar dentro de una funcion, y pueden s
 ejemplo de ello seria: function Bolas (cant, color){}.
 El return es una declaracion que usamos, para que en vez de usar otra funcion llamada console.log
 nos regrese los valores que hayamos especificado.
-Por ejemplo: function Bolas (cant, color){
-                var caja = cant + color:
-                return caja;}
+Por ejemplo: 
+function Bolas (cant, color){
+     var caja = cant + color;
+      return caja;}
 
 La declaracion IF es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión. Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo.
-ejemplo function puedeManejar(edad) {
+ejemplo 
+function puedeManejar(edad) {
     if (edad > 18) {
         return true;
     }
